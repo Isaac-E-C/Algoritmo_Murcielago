@@ -24,7 +24,8 @@ NIVELES = {"S": -1, "PB": 0, "P1": 1, "P2": 2}
 
 # Coordenadas normalizadas sobre campus_espe.png (1476 x 880), escalables.
 PUNTOS = {
-    "Bloque G": {"origen": (0.476, 0.529), "gradas": (0.505, 0.449), "salida": (0.535, 0.230), "encuentro": (0.641, 0.105), "color": "#00d9ff"},
+    # Origen G: edificio rotulado "Bloque G - ESPE", bajo Laboratorios de computación.
+    "Bloque G": {"origen": (0.568, 0.623), "gradas": (0.505, 0.449), "salida": (0.535, 0.230), "encuentro": (0.641, 0.105), "color": "#00d9ff"},
     "Bloque H": {"origen": (0.365, 0.515), "gradas": (0.414, 0.645), "salida": (0.518, 0.690), "encuentro": (0.575, 0.857), "color": "#ffb000"},
 }
 POLIGONO_ESCALA = np.array([
