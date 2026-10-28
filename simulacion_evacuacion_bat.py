@@ -138,7 +138,7 @@ class BatAlgorithmEvacuation:
 
 def dibujar_mapa_mejorado(origen: Path) -> Path:
     """Genera una copia clara y no destructiva del mapa con los seis puntos."""
-    salida = origen.with_name("campus_espe_mejorado.png")
+    salida = origen.with_name("campus_espe_actualizado.png")
     imagen = Image.open(origen).convert("RGB")
     d = ImageDraw.Draw(imagen); w, h = imagen.size
     try:

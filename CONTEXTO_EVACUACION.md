@@ -33,7 +33,7 @@ La escala combina las mediciones de Google Earth: área **1 649.39 m²** y perí
 
 Al ejecutar se crean:
 
-- `campus_espe_mejorado.png`: copia no destructiva del mapa con inicio, gradas y salidas claramente identificados.
+- `campus_espe_actualizado.png`: copia no destructiva del mapa con inicio, gradas, salidas y puntos de encuentro claramente identificados.
 - `evacuacion_bat_algorithm.gif`: animación de ambas poblaciones y rutas.
 - `ruta_optima_evacuacion.png`: imagen final de alta resolución.
 
